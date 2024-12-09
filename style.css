@@ -1,0 +1,109 @@
+.card {
+    width: 500px;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 10px;
+}
+
+img {
+    width: 100%;  
+    border-radius: 25px;
+}
+
+
+h2 {
+    color: #d56f3e;
+    
+}
+
+
+span {
+    color: #FFCD05;
+}
+
+h3{
+    text-align: center;
+    color:blue;
+}
+
+
+.soft {
+    width: 500px;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+.swift {
+    width: 500px;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 10px;
+}
+#well {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#pets {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+
+#like {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media (max-width: 375px) {
+    #pets {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 375px) {
+    #well {
+        flex-wrap: wrap;
+    }
+}
+
+
+@media (max-width:375px) {
+    #like {
+        flex-wrap: wrap;
+    }
+}
+
+
+.card:hover {
+    transition: 2s;
+    background-color: aqua;
+    color: blue;
+    
+}
+
+
+.soft:hover {
+    transition: 2s;
+    background-color: aqua;
+    color: darkblue;
+}
+
+
+.swift:hover {
+    transition: 2s;
+    background-color: aqua;
+    color: darkblue;
+}
+
+h4 {
+    text-align: center;
+    color: hsl(0, 100%, 50%);
+    
+}
